@@ -26,7 +26,7 @@ Unlike the previous projects that focused on classification (sentiment analysis)
 
 ## Project Five: AI Coding Agent with Gemini Function Calling
 
-The fifth project is an **AI Coding Agent** that leverages Google's Gemini API to perform autonomous software engineering tasks through natural language conversation. The agent can read directory contents, read and write files, and execute programs. A calculator application is used to demonstrate the agent's capabilities. When the calculator works correctly, `3 + 7 * 2` evaluates to seventeen, but after breaking the precedence, it becomes twenty. The agent autonomously fixes the bug, restoring the correct result to seventeen. This complete debugging workflow is shown in screenshot `codingagent7.png`, and screenshots of many other demos are available in the screenshots folder.
+The fifth project is an **AI Coding Agent** (`codingagent`) that leverages Google's Gemini API to perform autonomous software engineering tasks through natural language conversation. The agent can read directory contents, read and write files, and execute programs. A calculator application is used to demonstrate the agent's capabilities. When the calculator works correctly, `3 + 7 * 2` evaluates to seventeen, but after breaking the precedence, it becomes twenty. The agent autonomously fixes the bug, restoring the correct result to seventeen. This complete debugging workflow is shown in screenshot `codingagent7.png`, and screenshots of many other demos are available in the screenshots folder.
 
 ## Technologies Used
 
