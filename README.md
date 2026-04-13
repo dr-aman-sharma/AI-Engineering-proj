@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains five machine learning and artificial intelligence projects covering natural language processing, computer vision, and autonomous code generation tasks. Each project focuses on model training, hyperparameter optimization, performance evaluation, or intelligent agent design on real-world datasets and practical applications.
+This repository contains six machine learning and artificial intelligence projects covering natural language processing, computer vision, autonomous code generation, and retrieval-augmented generation tasks. Each project focuses on model training, hyperparameter optimization, performance evaluation, intelligent agent design, or LLM integration on real-world datasets and practical applications.
 
 ## Project One: Comment Sentiment Classification
 
