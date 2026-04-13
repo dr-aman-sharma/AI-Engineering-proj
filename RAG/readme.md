@@ -16,7 +16,7 @@ text
 | Component | Technology | Purpose |
 |-----------|------------|---------|
 | **Framework** | Gradio 5.0+ | Web interface & UI |
-| **LLM** | IBM watsonx.ai (Granite-4-H-Small) | Answer generation |
+| **LLM** | IBM watsonx.ai (Granite-8b-Code-Instruct)| Answer generation |
 | **Embeddings** | Hugging Face (all-MiniLM-L6-v2) | Text vectorization |
 | **Vector DB** | ChromaDB | Semantic search & retrieval |
 | **Document Processing** | PyPDFLoader + RecursiveCharacterSplitter | PDF parsing & chunking |
