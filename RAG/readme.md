@@ -7,9 +7,6 @@ A powerful **Retrieval-Augmented Generation (RAG)** question-answering bot that 
 
 Behind the scenes, the bot performs intelligent semantic search using vector embeddings to find the most relevant information within the document. This ensures that answers are not just generic responses but are specifically tailored to the content of the uploaded PDF. The answers are generated using IBM watsonx.ai's Granite language model, which delivers high-quality, coherent, and context-aware responses. The web interface is built with Gradio, providing a clean, modern, and user-friendly experience across both desktop and mobile devices. 
 
-litter Embeddings (watsonx.ai)
-
-text
 
 ### Technology Stack
 
