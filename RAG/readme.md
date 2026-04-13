@@ -1,6 +1,6 @@
 # Overview
 
-A **Retrieval-Augmented Generation (RAG)** question-answering bot that allows users to upload PDF documents and ask natural language questions about their content. The bot intelligently searches through the document and provides accurate, context-aware answers using state-of-the-art AI models.
+A functional **Retrieval-Augmented Generation (RAG)** question-answering bot that allows users to upload PDF documents and ask natural language questions about their content. The bot intelligently searches through the document and provides accurate, context-aware answers using state-of-the-art AI models.
 
 
 ## Features
