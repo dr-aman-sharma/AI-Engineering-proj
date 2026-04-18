@@ -32,6 +32,9 @@ The fifth project is an **AI Coding Agent** (`codingagent`) that leverages Googl
 
 The sixth project is a **RAG Question-Answering Bot** (`qabotrag.py`) that enables users to upload PDF documents and ask natural language questions about their content using retrieval-augmented generation. The bot extracts text from uploaded PDFs, splits it into manageable chunks, and creates vector embeddings using Hugging Face sentence-transformers. When a user asks a question, the bot retrieves the top three most relevant chunks from ChromaDB and generates an accurate response using IBM watsonx.ai's Granite language model. The complete pipeline is wrapped in an intuitive Gradio web interface and deployed as a live Hugging Face Space, allowing anyone to upload documents and receive AI-generated answers in real time.
 
+## Project Seven: Comparative Fine-Tuning for Sentiment Classification
+The seventh project is Comparative Fine-Tuning for Sentiment Classification (fine_tuning_comparison.ipynb), which explores five transfer learning approaches to adapt a model pretrained on AG News (4-class news categorization) for IMDB binary sentiment analysis. Methods compared include training from scratch, full fine-tuning, classifier-only fine-tuning, adapters, LoRA, and QLoRA. Results show that while full fine-tuning and adapters achieve 86% accuracy, QLoRA delivers 84% accuracy with significantly lower computational cost, making it the optimal choice for resource-constrained environments.
+
 ## Technologies Used
 
-PyTorch, scikit-learn, NLTK, Python, Pandas, NumPy, Matplotlib, Jupyter Notebook, Google Gemini API, LangChain, IBM watsonx.ai, Hugging Face, ChromaDB, Gradio.
+PyTorch, scikit-learn, NLTK, Python, Pandas, NumPy, Matplotlib, Jupyter Notebook, Google Gemini API, LangChain, IBM watsonx.ai, Hugging Face, ChromaDB, Gradio, PEFT, Adapters, LoRA, QLoRA,.
